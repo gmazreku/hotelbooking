@@ -7,41 +7,83 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header class="block">
+
+  <header>
+    <a href="index.html">
         <img src="img/logo.png" alt="MyHotel logga">
-        <li>
-            <a href="index.html">Hem</a>
-            <a href="booking.html">Boka rum</a>
-            <a href="contact.html">Kontakta oss</a>
-        </li>
-    </header>
-    <main>
-        <div class="block">
-            <h2>Upptäck det bästa av MyHotel</h2>
-            <p>MyHotel är det bästa valet för din nästa semester. Vi erbjuder bekväma rum, fantastisk service och en oslagbar plats. Boka ditt rum idag och upplev det bästa av vad vi har att erbjuda!</p>
-            <a href="booking.html">Klicka här för att boka nu!</a>
+    </a>  
+    <nav>
+      <a href="booking.html" class="btn-nav">Boka rum</a>
+      <a href="about.html">Om oss</a>
+      <a href="contact.html">Kontakta oss</a>
+      
+    </nav>
+  </header>
+
+  <section class="hero">
+    <img src="img/hotel.png" alt="MyHotel">
+    <div class="hero-text">
+      <h1>Välkommen till MyHotel</h1>
+      <a href="booking.html" class="btn">Boka ditt rum nu!</a>
+    </div>
+  </section>
+
+  <main>
+    <section class="cards">
+      <h2>Varför välja MyHotel?</h2>
+      <div class="card-grid">
+        <div class="card">
+          <h3>Bekväma rum</h3>
+          <p>Moderna och välutformade rum för din komfort.</p>
         </div>
-        <div class="block">
-            <h2>Varför välja MyHotel?</h2>
-            <ul>
-                <li>Bekväma och moderna rum</li>
-                <li>Fantastisk service</li>
-                <li>Prisvärda priser</li>
-            </ul>
+        <div class="card">
+          <h3>Fantastisk service</h3>
+          <p>Vi finns här för dig dygnet runt.</p>
         </div>
-        <div class="block">
-            <h2>Gästrecensioner</h2>
-            <p>"MyHotel var fantastiskt! Rummet var rent och bekvämt, och personalen var otroligt vänlig. Jag kommer definitivt att återvända!" - Anna S.</p>
-            <p>"Jag älskade min vistelse på MyHotel. Läget var perfekt, och jag kände mig verkligen välkommen. Rekommenderas starkt!" - Erik L.</p>
+        <div class="card">
+          <h3>Prisvärda priser</h3>
+          <p>Lyx behöver inte kosta skjortan.</p>
         </div>
-        <div class="block">
-            <h2>Kontakta oss</h2>
-            <p>Har du frågor eller behöver hjälp? Tveka inte att kontakta oss! Vi är här för att göra din vistelse så bekväm som möjligt.</p>
-            <a href="contact.html">Kontakta oss</a>
+      </div>
+    </section>
+
+    <section class="reviews">
+      <h2>Gästrecensioner</h2>
+      <div class="card-grid">
+        <div class="card">
+          <p>"MyHotel var fantastiskt! Rummet var rent och bekvämt." - Anna S.</p>
         </div>
-    </main>
-    <footer>
-        <p>&copy; 2026 MyHotel. Alla rättigheter förbehållna.</p>
-    </footer>
+        <div class="card">
+          <p>"Jag älskade min vistelse. Läget var perfekt!" - Erik L.</p>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+
+  <footer>
+  <div class="footer-grid">
+    <div class="footer-col">
+        
+      <h4>Om oss</h4>
+      <ul>
+        <li><a href="#">Historia</a></li>
+        <li><a href="#">Hållbarhet</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Galleri</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h4>Adress</h4>
+      <p>Hotelgatan 1</p>
+      <p>424 22, Göteborg</p>
+    </div>
+    <div class="footer-col">
+      <h4>Kontakt</h4>
+      <p>info@myhotel.se<br>031-13 456 78</p>
+    </div>
+  <p class="footer-bottom">&copy; 2026 MyHotel. Alla rättigheter förbehållna.</p>
+</footer>
+
 </body>
 </html>
