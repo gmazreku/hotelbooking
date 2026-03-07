@@ -321,3 +321,32 @@ footer p {
   font-size: 0.8rem;
   color: #ffffff;
 }
+
+#confirmation {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #1e3a5f;
+  margin: 60px auto 20px;
+}
+
+#confirmation-box {
+  text-align: center;
+  margin: 60px auto;
+}
+
+#back-btn {
+  display: block;
+  margin: 0 auto;
+  background: #1e3a5f;
+  color: white;
+  border: none;
+  padding: 14px 35px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+#back-btn:hover {
+  background: #31598d;
+}
