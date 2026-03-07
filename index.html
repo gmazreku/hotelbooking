@@ -24,12 +24,27 @@
     <img src="img/hotel.png" alt="MyHotel">
     <div class="hero-text">
       <h1>Välkommen till MyHotel</h1>
-      <div class="search-bar">
-        <input type="text" placeholder="Välj rum...">
-        <input type="date">
-        <input type="text" placeholder="1 Rum, 1 Vuxen">
-        <button>Sök</button>
-      </div>
+      <form action="booking.html">
+        <div class="search-bar">
+          <div class="search-field">
+            <span>🛏️</span>
+            <select>
+              <option value="">Välj rum</option>
+              <option value="standard">Standard</option>
+              <option value="deluxe">Deluxe</option>
+            </select>
+          </div>
+          <div class="search-field">
+            <span>📅</span>
+            <input type="date">
+          </div>
+          <div class="search-field">
+            <span>👤</span>
+            <input type="text" placeholder="Gäster">
+          </div>
+          <button type="submit">Sök</button>
+        </div>
+      </form>
     </div>
   </section>
 
