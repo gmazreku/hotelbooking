@@ -83,6 +83,38 @@ nav a.btn-nav:hover {
   margin-bottom: 20px;
 }
 
+.search-bar {
+  display: flex;
+  gap: 10px;
+  background: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.search-bar input {
+  flex: 1;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 12px 15px;
+  font-size: 0.95rem;
+  outline: none;
+}
+
+.search-bar button {
+  background: #1e3a5f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 25px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.search-bar button:hover {
+  background: #31598d;
+}
+
 .btn {
   display: inline-block;
   padding: 14px 35px;
