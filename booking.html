@@ -23,7 +23,7 @@
  <main>
     <section class="rooms">
 
-      <div class="room-card">
+      <div class="room-card" data-room="standard" data-price="800">
         <img src="img/standard.jpg" alt="Standard rum">
         <div class="room-info">
           <h3>Standard</h3>
@@ -35,13 +35,14 @@
           </ul>
         </div>
         <div class="room-price">
-          <p>från <strong>800 SEK</strong></p>
+          <p><strong>800 SEK</strong></p>
           <p>per natt</p>
+          <p class="per-person">per person</p>
           <button class="btn-book">Boka nu</button>
         </div>
       </div>
 
-      <div class="room-card">
+      <div class="room-card" data-room="deluxe" data-price="1200">
         <img src="img/deluxe.jpg" alt="Deluxe rum">
         <div class="room-info">
           <h3>Deluxe</h3>
@@ -54,14 +55,17 @@
           </ul>
         </div>
         <div class="room-price">
-          <p>från <strong>800 SEK</strong></p>
+          <p><strong>1200 SEK</strong></p>
           <p>per natt</p>
+          <p class="per-person">per person</p>
           <button class="btn-book">Boka nu</button>
         </div>
       </div>
     </section>
     <div id="confirmation-box" style="display:none;">
-      <p id="confirmation">Bokningen är bekräftad</p>
+      <p id="confirmation">Bokningen är bekräftad.</p>
+      <p>Du kommer att få en bekräftelse via e-post.</p>
+      <p>Vi ser fram emot att välkomna dig till MyHotel!</p><br>
       <a href="index.html"><button id="back-btn">Tillbaka till startsidan</button></a>
     </div>
   </main>
