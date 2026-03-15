@@ -348,6 +348,95 @@ footer p {
   color: #ffffff;
 }
 
+.about {
+  max-width: 1400px;
+  margin: 60px auto;
+  padding: 0 40px;
+}
+
+.about h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.about p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 15px;
+}
+
+.about-content {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.about img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.contact {
+  max-width: 600px;
+  margin: 60px auto;
+  padding: 0 40px;
+}
+
+.contact h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 25px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.form-field label {
+  font-size: 0.9rem;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+.form-field input,
+.form-field textarea {
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 12px 15px;
+  font-size: 0.95rem;
+  outline: none;
+  font-family: Arial, sans-serif;
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  border-color: #1e3a5f;
+}
+
+.contact button {
+  background: #1e3a5f;
+  color: white;
+  border: none;
+  padding: 14px 35px;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact button:hover {
+  background: #31598d;
+}
+
 #confirmation {
   text-align: center;
   font-size: 1.5rem;
